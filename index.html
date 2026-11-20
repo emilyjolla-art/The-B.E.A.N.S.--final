@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="B.E.A.N.S. is a hands-on, interactive rave instrument by Alice McPherson-Ståhl and Emili Mechilli.">
+  <meta name="theme-color" content="#ff70ba">
+  <title>Spill the B.E.A.N.S.!</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="B.E.A.N.S. home">B.E.A.N.S<span>®</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#the-beans">The beans</a>
+      <a href="#how-to-play">How to play</a>
+      <a class="nav-cta" href="#play">Enter the rave <span aria-hidden="true">↘</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A handmade rave machine</p>
+        <h1 id="hero-title">SPILL<br><span>THE B.E.A.N.S.</span></h1>
+        <p class="hero-subtitle">Beats, Effects And Noisy Sounds</p>
+        <p class="hero-text">Push buttons. Stack beats. Make a beautiful mess.</p>
+        <a class="button" href="#the-beans">Meet the beans <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="sunburst"></div>
+        <div class="bean bean-one">B</div>
+        <div class="bean bean-two">E</div>
+        <div class="bean bean-three">A</div>
+        <div class="bean bean-four">N</div>
+        <div class="beat-bars">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <span class="sticker">21<br>BEATS!</span>
+      </div>
+
+      <div class="hero-ticker" aria-hidden="true">
+        <span>PRESS BUTTONS · MAKE A BEAT · SPILL THE B.E.A.N.S. · PRESS BUTTONS · MAKE A BEAT · SPILL THE B.E.A.N.S. · </span>
+      </div>
+    </section>
+
+    <section id="the-beans" class="section photo-section">
+      <div class="section-heading">
+        <p class="eyebrow">The Hardware</p>
+        <h2>Meet the <em>beans</em></h2>
+        <p class="section-intro">   B.E.A.N.S. (Beats, Effects And Noisy Sounds) is an interactive music project
+        that invites visitors to make their own rave. We built two handmade controllers:
+        BEAN ONE has eight buttons and two knobs, while BEAN TWO uses 13 recycled
+        switches from a piano floor mat. Pressing the buttons or keys adds beats to
+        the mix, and the knobs change the pitch and speed. The webpage responds with
+        changing visuals that grow more intense as more beats are added. Two handmade
+        light pieces, Bumfights and Crackhead, bring the project’s playful, chaotic
+        energy into the space. B.E.A.N.S. brings physical interaction, sound, visuals,
+        and light together in one hands-on experience.</p>
+      </div>
+
+      <div class="photo-grid">
+        <figure class="photo-card photo-large">
+          <div class="photo-placeholder">
+            <img class="project-photo"src="pic/button.png" alt="BEAN ONE with its eight buttons ">
+          </div>
+          <figcaption><span>01</span> BEAN ONE · buttons + knobs</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <div class="photo-placeholder pink">
+             <img class="project-photo" src="pic/finalbean1.png"alt="BEAN ONE with its eight buttons and two potentiometers final">
+          </div>
+          <figcaption><span>02</span> BEAN ONE · Final product</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <div class="photo-placeholder blue">
+         <img class="project-photo" src="pic/piano_making.JPG"alt="BEAN TWO piano">
+          </div>
+          <figcaption><span>03</span> Piano</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <div class="photo-placeholder green">
+         <img class="project-photo" src="pic/endpiano.JPG" alt="Bumfights, the moving LED light installation">
+          </div>
+          <figcaption><span>04</span> Piano Result  </figcaption>
+        </figure>
+
+        <figure class="photo-card photo-wide">
+          <div class="photo-placeholder orange">
+         <img class="project-photo" src="pic/allBean.JPG" alt="finalproduct">
+          </div>
+          <figcaption><span>05</span> FINAL PRODUCT </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="play" class="section video-section">
+      <div class="video-copy">
+        <p class="eyebrow">Curious to see? </p>
+        <h2>Turn it up.<br><em>Here comes a small demonstration .</em></h2>
+        <p>Watch the buttons, beats and visuals come together!!</p>
+      </div>
+
+      <div class="video-frame">
+     <video class="project-video" controls playsinline preload="metadata">
+     <source src="video/demobeans.mp4" type="video/mp4">
+  </video>
+</div>
+    </section>
+
+    <section id="how-to-play" class="how-section">
+      <div class="section-heading">
+        <p class="eyebrow"> Instructions </p>
+        <h2>How to <em>make MUSIC.</em></h2>
+      </div>
+
+      <div class="steps">
+        <article class="step">
+          <span class="step-number">1</span>
+          <h3>Pick a beat</h3>
+          <p>Press a button or piano key to add its beat to the mix.</p>
+        </article>
+        <article class="step">
+          <span class="step-number">2</span>
+          <h3>Stack it up</h3>
+          <p>Combine beats and build your own little rave.</p>
+        </article>
+        <article class="step">
+          <span class="step-number">3</span>
+          <h3>Twist the sound</h3>
+          <p>Turn the potentiometers to change pitch and speed.</p>
+        </article>
+        <article class="step">
+          <span class="step-number">4</span>
+          <h3>Watch it grow</h3>
+          <p>More beats make the sound and visuals more intense and chaotic. And the most inportnt ENJOY</p>
+        </article>
+      </div>
+
+    <section class="about-section">
+      <div class="about-stamp" aria-hidden="true"><br>RAVE</div>
+      <div>
+        <p class="eyebrow"> As designer </p>
+        <h2>Playful by design<br><em>Made to be explored.</em></h2>
+        <p class="about-copy">
+          I wanted B.E.A.N.S. to invite people to experiment, not just look at it. Its
+         bright colors, unusual controllers, and changing visuals make the experience
+         playful and a little unpredictable. Alice and I shaped B.E.A.N.S. through shared ideas,
+          conversations, and experiments. We kept building on each other’s suggestions until the controllers, 
+         visuals, and sound felt like parts of the same playful world. For me, B.E.A.N.S. shows how design can
+         make technology feel specia and engaging .
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#top">B.E.A.N.S<span>®</span></a>
+    <p>Made with buttons, beats &amp; questionable decisions.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
